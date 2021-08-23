@@ -5,7 +5,7 @@ const params = {
   },
 };
 
-const URL = 'http://stormy-brook-79548.herokuapp.com/api';
+const URL = 'https://stormy-brook-79548.herokuapp.com/api';
 
 async function getNews(subject) {
   return fetch(`${URL}/${subject}`, params)
